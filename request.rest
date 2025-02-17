@@ -1,0 +1,12 @@
+GET http://localhost:3000/users
+
+###
+
+POST http://localhost:3000/tambah-data
+Content-Type: application/json
+
+{
+  "name": "hafizh",
+  "email": "h@example.com",
+  "gender": "male",
+}
